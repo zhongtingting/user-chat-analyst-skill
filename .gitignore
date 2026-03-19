@@ -1,0 +1,19 @@
+# 忽略分析中间文件和临时输出
+output/
+*.json
+contents_all.txt
+report_*.md
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+dist/
+
+# macOS
+.DS_Store
+
+# 编辑器
+.vscode/
+.idea/
